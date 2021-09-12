@@ -1,0 +1,15 @@
+.hover_red:hover{
+    background-color: red;
+}
+
+canvas{
+    border: 5px dashed;
+    animation-name:example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{box-shadow:10px 10px 40px red ;}
+    to{box-shadow:10px 10px 40px yellow;}
+}
